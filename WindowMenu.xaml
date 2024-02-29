@@ -1,0 +1,24 @@
+﻿<Window x:Class="kt4.WindowMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kt4"
+        mc:Ignorable="d"
+        Title="WindowMenu" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="11*"/>
+            </Grid.RowDefinitions>
+            <Frame Content="Frame" Name="MainFrame" HorizontalAlignment="Center" Height="341" Grid.Row="1" VerticalAlignment="Center" NavigationUIVisibility='Hidden' Width="800"/>
+            <Button x:Name="Btn_Rasp" Content="Расписание" HorizontalAlignment="Left" Height="34" Margin="24,0,0,0" VerticalAlignment="Center" Width="113" Click="Button_Click"/>
+            <Button x:Name="Btn_Plan" Content="Рейтинг план" HorizontalAlignment="Left" Height="34" Margin="183,0,0,0" VerticalAlignment="Center" Width="113" Click="Btn_Plan_Click"/>
+            <Button x:Name="Btn_Sotrud" Content="Сотрудники" HorizontalAlignment="Center" Height="34" VerticalAlignment="Center" Width="112" Click="Btn_Sotrud_Click"/>
+            <Button x:Name="Btn_MO" Content="Материальная&#xD;&#xA;ответственность" HorizontalAlignment="Left" Height="34" Margin="507,0,0,0" VerticalAlignment="Center" Width="112" Click="Btn_MO_Click"/>
+            <Button x:Name="Btn_DO" Content="Дистанционное&#xD;&#xA;образование" HorizontalAlignment="Left" Height="34" Margin="666,0,0,0" VerticalAlignment="Center" Width="112" Click="Btn_DO_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

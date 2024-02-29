@@ -1,0 +1,21 @@
+﻿<Window x:Class="kt4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kt4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBox_login" HorizontalAlignment="Left" Height="30" Margin="300,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="300,210,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="300,144,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Image Height="NaN" Margin="10,10,676,311" Source="/cydTfGiWyHcyRjdN6Pl29LAEREDX2_rOLcf167tgXBxhAjdgCuw5fs6_EiJulAZ7xHyBYQ.jpg" Stretch="Fill" Width="NaN"/>
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="327,38,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button x:Name="Btn_Reg" Content="Регистрация" HorizontalAlignment="Left" Margin="655,37,0,0" VerticalAlignment="Top" Height="30" Width="123" FontSize="14" Click="Btn_Reg_Click"/>
+        <Button x:Name="BtnLogin" Content="Войти" HorizontalAlignment="Left" Height="30" Margin="340,308,0,0" VerticalAlignment="Top" Width="116" Click="BtnLogin_Click"/>
+        <TextBox x:Name="textBox_password" HorizontalAlignment="Left" Height="30" Margin="300,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
+        
+
+    </Grid>
+</Window>
